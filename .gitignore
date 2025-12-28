@@ -1,9 +1,21 @@
-node_modules/
+# Environment variables
 .env
-*.log
-dist/
-build/
-backend/public/uploads/
+.env.local
+
+# Node / Bun
+node_modules
 bun.lockb
-frontend/.next/
-frontend/out/
+
+# Next.js
+.next
+out
+
+# Logs
+logs
+*.log
+npm-debug.log*
+bun-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

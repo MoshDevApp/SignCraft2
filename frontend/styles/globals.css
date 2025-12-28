@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f9fafb;
+  color: #111827;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Reusable button style */
+.btn {
+  @apply bg-black text-white px-3 py-1.5 text-sm rounded hover:bg-gray-800;
+}

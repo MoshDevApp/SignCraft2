@@ -1,0 +1,25 @@
+{
+  "name": "signcraft-backend",
+  "version": "1.0.0",
+  "description": "SignCraft Digital Signage Backend (Bun + Sequelize)",
+  "scripts": {
+    "dev": "bun run server.js",
+    "migrate": "npx sequelize-cli db:migrate"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.11.0",
+    "node-fetch": "^3.3.2",
+    "sequelize": "^6.37.3",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
